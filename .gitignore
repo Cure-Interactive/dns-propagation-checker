@@ -1,2 +1,39 @@
-/_logs
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Runtime state generated beside scripts
 /config.json
+/config_restore.json
+/repository_manifest.json
+/font_selection_state.json
+/font_selection_selected.txt
+/svg_live_viewer.log
+
+# Logs and local output
+_log/
+_logs/
+*.log
+
+# Node / web build output
+node_modules/
+web/out/
+out/
+
+# Local tools vendored outside release source
+/tools/synticore-website-compiler/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
