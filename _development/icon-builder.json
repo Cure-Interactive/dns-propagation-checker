@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "input_dir": ".",
+  "target_sizes": [],
+  "output_dir": "..",
+  "output_name": "icon.ico",
+  "png_output": {
+    "enabled": true,
+    "output_dir": "..",
+    "output_name": "icon.png",
+    "size": 256
+  },
+  "layers": [
+    {
+      "target_size": "256x256",
+      "size": "256x256",
+      "path": "icon.svg",
+      "enabled": true
+    },
+    {
+      "target_size": "128x128",
+      "size": "128x128",
+      "path": "icon.svg",
+      "enabled": true
+    },
+    {
+      "target_size": "64x64",
+      "size": "64x64",
+      "path": "icon.svg",
+      "enabled": true
+    },
+    {
+      "target_size": "48x48",
+      "size": "48x48",
+      "path": "icon.svg",
+      "enabled": true
+    },
+    {
+      "target_size": "32x32",
+      "size": "32x32",
+      "path": "icon.svg",
+      "enabled": true
+    },
+    {
+      "target_size": "24x24",
+      "size": "24x24",
+      "path": "icon.svg",
+      "enabled": true
+    },
+    {
+      "target_size": "16x16",
+      "size": "16x16",
+      "path": "icon.svg",
+      "enabled": true
+    }
+  ]
+}
